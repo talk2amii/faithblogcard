@@ -1,0 +1,73 @@
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: 800px;;
+}
+ 
+.container {
+    border: 1px solid black;
+    box-shadow: 15px 15px 1px black;
+    border-radius: 40px;
+    height: 65%;
+    width: 22%;
+    margin: 90px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+button{
+    background-color: hsl(47, 88%, 63%);
+    padding: 10px 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.published {font-size: 20px;
+font-weight: 500;}
+
+.container > div { flex: 1;}
+
+h2{font-size: 30px;
+font-weight: bolder;
+margin-top: 10px
+}
+
+.language{margin-top: 0;
+line-height: 30px;
+font-size: 20px;
+}
+
+.personal {display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.pcs{;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4{padding: 10px;
+font-size: 20px;
+text-align: center;
+}
+
+.greg {width: 50px;
+    
+}
+
+
